@@ -13,6 +13,11 @@ export default defineConfig({
       }
     }
   },
+  preview: {
+    port: 10000,
+    host: true,
+    allowedHosts: true
+  },
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
